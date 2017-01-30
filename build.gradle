@@ -160,7 +160,7 @@ if(project.properties["profile"]=='it') {
 }
 
 buildscript{
-    project.ext.set('parsecGradleVersion', '0.0.15-pre')
+    project.ext.set('parsecGradleVersion', '0.0.14-pre')
 }
 
 repositories {
