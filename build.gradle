@@ -38,7 +38,6 @@ apply plugin: 'java'
 //Integration Plugins
 apply plugin: 'maven'
 apply plugin: 'osgi'
-apply plugin: 'application'
 apply plugin: 'war'
 apply plugin: org.akhikhl.gretty.GrettyPlugin
 
@@ -160,7 +159,7 @@ if(project.properties["profile"]=='it') {
 }
 
 buildscript{
-    project.ext.set('parsecGradleVersion', '0.0.14-pre')
+    project.ext.set('parsecGradleVersion', '0.0.15-pre')
 }
 
 repositories {
